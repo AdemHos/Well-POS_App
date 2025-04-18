@@ -31,15 +31,15 @@ const Header = () => {
           <span className='md:text-xs text-[10px] text'>Sepet</span>
           </Link>
           </Badge>
-          <Link to={'/'} className='flex flex-col items-center hover:text-blue-500 transition-all '>
+          <Link to={'/invoices'} className='flex flex-col items-center hover:text-blue-500 transition-all '>
           <CopyOutlined className='text-xl md:text-2xl'/>
           <span className='md:text-xs text-[10px] text'>Faturalar</span>
           </Link>
-          <Link href={'/'} className='flex flex-col items-center hover:text-blue-500 transition-all'>
+          <Link to={'/customers'} className='flex flex-col items-center hover:text-blue-500 transition-all'>
           <UserOutlined className='text-xl md:text-2xl'/>
           <span className='md:text-xs text-[10px] text'>Müşteriler</span>
           </Link>
-          <Link to={'/'} className='flex flex-col items-center hover:text-blue-500 transition-all'>
+          <Link to={'/statistic'} className='flex flex-col items-center hover:text-blue-500 transition-all'>
           <BarChartOutlined className='text-xl md:text-2xl'/>
           <span className='md:text-xs text-[10px] text'>İstatistikler</span>
           </Link>
